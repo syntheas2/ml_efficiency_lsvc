@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/arbeit/datensynthese2/ml_efficiency_lsvc/mlruns/0/f266d666eef84877b1f5b30f5ba4ec87/artifacts
+end_time: 1747297792373
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f266d666eef84877b1f5b30f5ba4ec87
+run_name: handsome-loon-215
+run_uuid: f266d666eef84877b1f5b30f5ba4ec87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747297776677
+status: 3
+tags: []
+user_id: paul-

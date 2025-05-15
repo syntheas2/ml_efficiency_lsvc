@@ -1,0 +1,8 @@
+train with original data and test with original data
+
+Training data shape: (31556, 295)
+
+Test data shape: (9687, 295)
+
+Learned minmax scaler on training data and applied it to test data
+

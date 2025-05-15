@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/arbeit/datensynthese2/ml_efficiency_lsvc/mlruns/0/be57559859644792ad1274635f906154/artifacts
+end_time: 1747302878736
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be57559859644792ad1274635f906154
+run_name: TrainWithOriginalData
+run_uuid: be57559859644792ad1274635f906154
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747302854753
+status: 3
+tags: []
+user_id: paul-

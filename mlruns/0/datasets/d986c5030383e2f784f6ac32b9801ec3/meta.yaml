@@ -1,0 +1,9 @@
+digest: fb4f9e90
+name: dataset
+profile: '{"features_shape": [9687, 295], "features_size": 2857665, "features_nbytes":
+  22861320}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 295]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "paul-", "mlflow.source.name": "c:/arbeit/datensynthese2/ml_efficiency_lsvc/pipelines/train_orig_data_with_test.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

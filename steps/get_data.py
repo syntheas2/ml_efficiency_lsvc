@@ -17,11 +17,11 @@ def get_original_data_step() -> Tuple[
     Annotated[pd.Series, "y_test"],
 ]:
     artifact = Client().get_artifact_version(
-        "cf513ab8-4c45-4d8a-b049-1f5d1932a3b4")
+        "b399655a-01d4-47a0-9c1d-92ef258a0023")
     df_train = artifact.load()
 
     artifact2 = Client().get_artifact_version(
-        "8ff20b28-5e55-4541-a558-81d2d351cc72")
+        "a00d0e8b-1d7b-40ce-867f-513f2a1daebd")
     df_test = artifact2.load()
 
     X_train, y_train, scaler = get_x_y_train_step(df_train)

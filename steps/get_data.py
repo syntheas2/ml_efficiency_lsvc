@@ -19,10 +19,12 @@ def get_original_data_step() -> Tuple[
     artifact = Client().get_artifact_version(
         "b399655a-01d4-47a0-9c1d-92ef258a0023")
     df_train = artifact.load()
+    df_train.drop(columns=['id', 'combined_tks'], inplace=True)
 
     artifact2 = Client().get_artifact_version(
         "a00d0e8b-1d7b-40ce-867f-513f2a1daebd")
     df_test = artifact2.load()
+    df_test.drop(columns=['id', 'combined_tks'], inplace=True)
 
     X_train, y_train, scaler = get_x_y_train_step(df_train)
     X_test, y_test = get_x_y_test_step(df_test, scaler)

@@ -10,7 +10,7 @@ from pydantic import BaseModel
 class Args(BaseModel):
     # MLflow
     mlflow_experiment_name: str = "ML_Efficiency_LinearSVC"
-    mlflow_run_name: str = "tabsyn_50k_mix_orig_test"
+    mlflow_run_name: str = "tabsyn_500k_mix_orig_test"
 
 @pipeline
 def train_tabsyn_data_with_test2_pipeline():
